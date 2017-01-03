@@ -1,0 +1,10 @@
+$ echo "This is a test file." > ex17_in_file.txt
+$ cat ex17_in_file.txt
+This is a test file.
+$ ruby ex17.rb ex17_in_file.txt new_file.txt
+Copying from ex17_in_file.txt to new_file.txt
+The input file is 21 bytes long
+Does the output file exist? false
+Ready, hit RETURN to continue, CTRL-C to abort.
+
+Alright, all done.
